@@ -1,0 +1,60 @@
+# My AI Engineering Path
+<!-- Managed by the ai-engineering-from-scratch learning skills.
+     Repo: https://github.com/rohitg00/ai-engineering-from-scratch -->
+
+## Mission
+I want to become a professional AI engineer. I'm currently learning Python and backend development.
+
+What I most want to build by the end: a trained model.
+
+Teach me from my current level, using simple English and real-life examples. Give me practical exercises and let me write the code myself.
+
+Don't immediately give me answers when I make mistakes. Guide me with hints, test my understanding, and increase the difficulty gradually.
+
+I also want to document my progress and projects on GitHub.
+
+## Placement
+- Date: 2026-10-22
+- Score: 1/10 — Math & Statistics: 1/2; Classical ML: 0/2; Deep Learning: 0/2; NLP & Transformers: 0/2; Applied AI: 0/2
+- Entry point: Phase 0: Setup & Tooling (learner-selected after placement)
+- Pace: ~28 hours/week
+- Evidence: Q1 answered A correctly; Q2–Q10 explicitly marked unknown. These are topics to learn, not demonstrated misconceptions. Python and backend proficiency were not assessed by this quiz.
+
+## Path
+| Phase | Name | Status | Est. hours |
+|-------|------|--------|------------|
+| 0 | Setup & Tooling | Do | 16 |
+| 1 | Math Foundations | Do | 23 |
+| 2 | ML Fundamentals | Do | 26 |
+| 3 | Deep Learning Core | Do | 15 |
+| 4 | Computer Vision | Do | 27 |
+| 5 | NLP — Foundations to Advanced | Do | 30 |
+| 6 | Speech & Audio | Do | 18 |
+| 7 | Transformers Deep Dive | Do | 14 |
+| 8 | Generative AI | Do | 14 |
+| 9 | Reinforcement Learning | Do | 13 |
+| 10 | LLMs from Scratch | Do | 26 |
+| 11 | LLM Engineering | Do | 19 |
+| 12 | Multimodal AI | Do | 65 |
+| 13 | Tools & Protocols | Do | 76 |
+| 14 | Agent Engineering | Do | 55 |
+| 15 | Autonomous Systems | Do | 20 |
+| 16 | Multi-Agent & Swarms | Do | 28 |
+| 17 | Infrastructure & Production | Do | 34 |
+| 18 | Ethics, Safety & Alignment | Do | 31 |
+| 19 | Capstone Projects | Do | 620 |
+
+Total estimated time for Review + Do: ~1,170 hours across 20 phases.
+Source: [ROADMAP.md](https://raw.githubusercontent.com/rohitg00/ai-engineering-from-scratch/main/ROADMAP.md), retrieved 2026-10-22. Estimates use phase headings; the roadmap's headline total differs from their sum. Phase 19 includes the full capstone collection.
+
+At 28 hours/week, the listed estimates total about 42 weeks. Exercises, revision, Python practice, and GitHub documentation can extend this; this is not a deadline or a promise of professional readiness.
+
+Start with Phase 0, Lesson 01: Dev Environment, as explicitly requested by the learner. Complete Setup & Tooling before Math Foundations. Keep learner-written exercises, short reflections, project READMEs, and reproducible results ready for GitHub as learning progresses.
+
+## Progress log
+| Date | Lesson | Quiz | Note |
+|------|--------|------|------|
+| 2026-10-22 | 00-setup-and-tooling/01-dev-environment | 2/3 | Learner reported Linux, Python 3.12.3, Git 2.43.0, uv 0.13.5; created and activated .venv, ran Python/NumPy exercises and verify_setup.py, saved requirements.txt, ignored .venv, and drafted README setup. Corrected list repetition versus array multiplication. Review system foundation before package managers. NVIDIA access unconfirmed (nvidia-smi unavailable); PyTorch and official route preflight not yet run. Later runtimes deferred until needed. |
+
+## Review queue
+- 00-setup-and-tooling/01-dev-environment — Quiz 2/3 (67%): review environment setup order, especially why the operating system and shell must be ready before package managers. Follow up on PyTorch and official beginner preflight before model-training exercises; verify_setup.py currently checks only Python, NumPy, and virtual-environment activation.
