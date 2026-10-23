@@ -1,6 +1,6 @@
 # Lesson 03: GPU Setup & Cloud
 
-Status: practical work done; lesson quiz **not yet taken**. Notes prepared 2026-10-23.
+Status: completed; first quiz **1/3**, retry **2/3**, with FP16 arithmetic review needed. Notes updated 2026-10-23.
 
 ## What I did
 
@@ -87,7 +87,9 @@ This is a theoretical weights-only ceiling using total memory, not a model size 
 
 ## Still to do
 
-- Take the lesson quiz before recording this lesson as completed.
+- Retain NVIDIA status recall: `nvidia-smi` reports GPU status, memory usage, and processes. I answered this correctly on the retry. `torch.cuda.list_devices()` is not a valid PyTorch function.
+- Review FP16 arithmetic: 24 GB (24 billion bytes) divided by 2 bytes per parameter gives 12 billion parameters for weights alone. This excludes working and training memory.
+- First quiz: NVIDIA status command incorrect; synchronization correct; FP16 estimate incorrect. Retry: NVIDIA status and synchronization correct; FP16 estimate still incorrect. Both attempts are recorded in LEARNING.md.
 - Update dependency documentation: the current root `requirements.txt` lists NumPy but does not yet include the PyTorch installed during this lesson or its CPU package source.
 
 Self-check: can I explain why a CUDA check differs between my laptop and Colab, and why a weights-only limit is not a training limit?
