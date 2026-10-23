@@ -6,7 +6,7 @@ My goal is to prepare a working environment for learning AI engineering and trai
 |--------|-------|----------|
 | 01: Dev Environment | [Read notes](01-dev-environment/NOTES.md) | Completed; quiz 2/3; setup order needs review |
 | 02: Git & Collaboration | [Read notes](02-git-and-collaboration/NOTES.md) | Completed; quiz 3/3 |
-| 03: GPU Setup & Cloud | [Read notes](03-gpu-setup-cloud/NOTES.md) | Practical work done; quiz pending |
+| 03: GPU Setup & Cloud | [Read notes](03-gpu-setup-cloud/NOTES.md) | Completed; quiz 1/3, retry 2/3; FP16 estimates need review |
 
 ## How I will keep notes
 
