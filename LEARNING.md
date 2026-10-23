@@ -58,5 +58,10 @@ Start with Phase 0, Lesson 01: Dev Environment, as explicitly requested by the l
 
 | 2026-10-23 | 00-setup-and-tooling/02-git-and-collaboration | 3/3 | Practised inspecting history, staging README changes, committing, pushing, creating practice/git-notes, merging into main, and ignoring model checkpoints; learner-reported status matched origin/main. Initially confused staging with commits and merge with push, then correctly completed the workflow and quiz. Warm-up correctly recalled package isolation and system foundation first. |
 
+| 2026-10-23 | 00-setup-and-tooling/03-gpu-setup-and-cloud | 1/3 | Installed CPU PyTorch locally; ran device checks and CPU benchmark; used Colab T4 for synchronized GPU timing, measured about 24.81× speedup excluding transfers, and estimated FP16 weights-only capacity. Correctly answered synchronization question; review nvidia-smi and bytes-per-parameter arithmetic. Local artifacts and notes are in 03-gpu-setup-cloud/. |
+
+| 2026-10-23 | 00-setup-and-tooling/03-gpu-setup-and-cloud | 2/3 (retry) | Retake: correctly recalled nvidia-smi and GPU synchronization; selected 24 billion instead of 12 billion for 24 GB of FP16 weights. Continue practising capacity = bytes / bytes per parameter. Original attempt retained above. |
+
 ## Review queue
+- 00-setup-and-tooling/03-gpu-setup-and-cloud — Latest quiz 2/3 (67%), improved from 1/3: NVIDIA status check now recalled correctly; continue reviewing FP16 weights-only arithmetic (24 billion bytes / 2 bytes per parameter = 12 billion parameters). Training requires extra memory. Notes: phases/00-setup-and-tooling/03-gpu-setup-cloud/NOTES.md.
 - 00-setup-and-tooling/01-dev-environment — Quiz 2/3 (67%): review environment setup order, especially why the operating system and shell must be ready before package managers. Follow up on PyTorch and official beginner preflight before model-training exercises; verify_setup.py currently checks only Python, NumPy, and virtual-environment activation.
