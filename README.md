@@ -20,3 +20,6 @@ python3 hello_ai.py or python hello_ai.py
 python3 check_numpy.py or python check_numpy.py
 ## What i learned
 i learnt that multiplying a python list reapeat the list the number of times it is been multiply while multiplying a numpy multiply each number in the list
+
+## Git practice 
+git add stages the changes
