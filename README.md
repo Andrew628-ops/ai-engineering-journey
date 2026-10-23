@@ -23,3 +23,6 @@ i learnt that multiplying a python list reapeat the list the number of times it 
 
 ## Git practice 
 git add stages the changes
+
+### Why use branch
+using branch makes developer to know what they did and it avoid conflict in the main branch
