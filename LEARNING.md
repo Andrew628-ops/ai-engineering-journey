@@ -56,5 +56,7 @@ Start with Phase 0, Lesson 01: Dev Environment, as explicitly requested by the l
 |------|--------|------|------|
 | 2026-10-22 | 00-setup-and-tooling/01-dev-environment | 2/3 | Learner reported Linux, Python 3.12.3, Git 2.43.0, uv 0.13.5; created and activated .venv, ran Python/NumPy exercises and verify_setup.py, saved requirements.txt, ignored .venv, and drafted README setup. Corrected list repetition versus array multiplication. Review system foundation before package managers. NVIDIA access unconfirmed (nvidia-smi unavailable); PyTorch and official route preflight not yet run. Later runtimes deferred until needed. |
 
+| 2026-10-23 | 00-setup-and-tooling/02-git-and-collaboration | 3/3 | Practised inspecting history, staging README changes, committing, pushing, creating practice/git-notes, merging into main, and ignoring model checkpoints; learner-reported status matched origin/main. Initially confused staging with commits and merge with push, then correctly completed the workflow and quiz. Warm-up correctly recalled package isolation and system foundation first. |
+
 ## Review queue
 - 00-setup-and-tooling/01-dev-environment — Quiz 2/3 (67%): review environment setup order, especially why the operating system and shell must be ready before package managers. Follow up on PyTorch and official beginner preflight before model-training exercises; verify_setup.py currently checks only Python, NumPy, and virtual-environment activation.
