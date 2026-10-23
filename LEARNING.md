@@ -62,6 +62,10 @@ Start with Phase 0, Lesson 01: Dev Environment, as explicitly requested by the l
 
 | 2026-10-23 | 00-setup-and-tooling/03-gpu-setup-and-cloud | 2/3 (retry) | Retake: correctly recalled nvidia-smi and GPU synchronization; selected 24 billion instead of 12 billion for 24 GB of FP16 weights. Continue practising capacity = bytes / bytes per parameter. Original attempt retained above. |
 
+| 2026-10-23 | 00-setup-and-tooling/04-apis-and-keys | 2/3 | Local simulation chosen by learner: loaded a fake key with environment variables and python-dotenv, tested missing-key handling, confirmed .env ignore rule, built a request dictionary and unsent HTTP POST, converted JSON in both directions, and extracted simulated responses using dictionary and object access. Outputs learner-reported; no live API call or provider SDK tested. Needed explanation of object attributes; review Anthropic x-api-key versus Content-Type. Local script: phases/00-setup-and-tooling/04-apis-keys/apis_setup.py. Warm-up correctly recalled FP16 capacity and GPU synchronization. |
+
+| 2026-10-23 | 00-setup-and-tooling/04-apis-and-keys | 3/3 (retry) | Correctly recalled local key storage, Anthropic x-api-key authentication header, and HTTP 429 wait-before-retry behavior. Original attempt retained; quiz review item cleared. Live API and actual SDK practice remain deferred by learner choice. |
+
 ## Review queue
 - 00-setup-and-tooling/03-gpu-setup-and-cloud — Latest quiz 2/3 (67%), improved from 1/3: NVIDIA status check now recalled correctly; continue reviewing FP16 weights-only arithmetic (24 billion bytes / 2 bytes per parameter = 12 billion parameters). Training requires extra memory. Notes: phases/00-setup-and-tooling/03-gpu-setup-cloud/NOTES.md.
 - 00-setup-and-tooling/01-dev-environment — Quiz 2/3 (67%): review environment setup order, especially why the operating system and shell must be ready before package managers. Follow up on PyTorch and official beginner preflight before model-training exercises; verify_setup.py currently checks only Python, NumPy, and virtual-environment activation.
