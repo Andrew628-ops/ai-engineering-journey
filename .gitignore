@@ -5,3 +5,6 @@ __pycache__/
 .env.*
 .aws/
 .codex/
+*.pt
+*.pth
+*.safetensors
