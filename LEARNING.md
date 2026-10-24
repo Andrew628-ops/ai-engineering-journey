@@ -78,6 +78,8 @@ Start with Phase 0, Lesson 01: Dev Environment, as explicitly requested by the l
 
 | 2026-10-24 | 00-setup-and-tooling/08-editor-setup | 3/3 (retry) | Correctly recalled Remote SSH, notebook output scrolling, and basic type checking. Original attempt retained; lesson review item cleared. Colab remains the chosen notebook interface; remote connection not tested. |
 
+| 2026-10-24 | 00-setup-and-tooling/09-data-management | 3/3 | Practised in Google Colab with 20 numbered examples: seeded shuffle, manual 14/3/3 slices, disjoint-ID reasoning, Hugging Face Dataset construction and seeded two-stage 70/15/15 split, repeated training-ID equality True, CSV/Parquet export (53 versus 949 bytes), Parquet reload (20 rows and matching IDs), and local CSV streaming of five rows. Needed stepwise help with percentage counts and slice end indices. Correctly answered Parquet, streaming, and DVC quiz questions. Outputs learner-reported; notebook not inspected locally. Remote Hub dataset/model downloads, remote streaming, and actual LFS/DVC setup not performed. |
+
 ## Review queue
 - 00-setup-and-tooling/07-docker-for-ai — Practical follow-up: image builds and container runs remain untested pending authorized Docker engine access. Latest quiz 3/3; conceptual walkthrough and quiz retake completed.
 - 00-setup-and-tooling/03-gpu-setup-and-cloud — Latest quiz 2/3 (67%), improved from 1/3: NVIDIA status check now recalled correctly; continue reviewing FP16 weights-only arithmetic (24 billion bytes / 2 bytes per parameter = 12 billion parameters). Training requires extra memory. Notes: phases/00-setup-and-tooling/03-gpu-setup-cloud/NOTES.md.
