@@ -23,7 +23,7 @@ I also want to document my progress and projects on GitHub.
 ## Path
 | Phase | Name | Status | Est. hours |
 |-------|------|--------|------------|
-| 0 | Setup & Tooling | Do | 16 |
+| 0 | Setup & Tooling | Done | 16 |
 | 1 | Math Foundations | Do | 23 |
 | 2 | ML Fundamentals | Do | 26 |
 | 3 | Deep Learning Core | Do | 15 |
@@ -91,6 +91,10 @@ Start with Phase 0, Lesson 01: Dev Environment, as explicitly requested by the l
 | 2026-10-24 | 00-setup-and-tooling/12-debugging-and-profiling | 1/3 | Learner-reported local practice: inspected average() total=60 and count=3 using pdb, continued execution, added empty-list ValueError; cProfile showed load_data ~0.300/0.301s; tracemalloc identified bytearray allocation ~1041 KiB; inspected CPU float32 tensor shape [2,3], inserted NaN and checked isfinite=False; logged simulated train/validation losses and viewed both TensorBoard plots. Needed stepwise help with debugger prompt, zero division, finite checks, validation versus training, and lower loss meaning less error. Correctly answered NaN debugging quiz; review data leakage and choosing data loading from measured profile. Official toolkit, real training-loop profiling, gradient inspection, line_profiler, GPU memory checks, and VS Code debugger not tested. |
 
 | 2026-10-24 | 00-setup-and-tooling/12-debugging-and-profiling | 3/3 (retry) | Correctly recalled data leakage, identifying data loading as the measured bottleneck, and NaN/Inf inspection with breakpoints. Original attempt retained; quiz review item cleared. Revisit validation-loss interpretation through future recall; TensorBoard used simulated losses and previously untested practical work remains unverified. |
+
+| 2026-10-24 | 00-setup-and-tooling/13-python-for-ai-engineering | 1/2 | Adapted lesson at learner-requested faster pace: shared lists and independent nested rows, comprehensions, unpacking/f-strings, default and keyword-only arguments, closures, exhausted generators and fresh per-epoch batch generators, dataclass records and one-review JSON/CSV workflow, pure-Python mean/dot, library equivalents, and NumPy column centering. Learner-reported outputs confirmed batching across two epochs, mean=4.0, dot=32, and broadcast centering. Needed substantial guidance with loop passes, references, closures, generator exhaustion, and mutable defaults. Quiz: mutable default correct; review training-only standardization statistics. Full toolkit, standard-deviation implementation, benchmarks, large-file streaming, and complete classifier exercises not performed. All Phase 0 lessons now logged; practical gaps and review items remain. |
+
+| 2026-10-24 | 00-setup-and-tooling/13-python-for-ai-engineering | 2/2 (retry) | Correctly recalled shared mutable defaults and training-only standardization statistics. Original attempt retained; quiz review item cleared. Adapted lesson's unperformed exercises remain unverified; revisit generator exhaustion, references, and unpacking in future practical recall. |
 
 ## Review queue
 - 00-setup-and-tooling/07-docker-for-ai — Practical follow-up: image builds and container runs remain untested pending authorized Docker engine access. Latest quiz 3/3; conceptual walkthrough and quiz retake completed.
