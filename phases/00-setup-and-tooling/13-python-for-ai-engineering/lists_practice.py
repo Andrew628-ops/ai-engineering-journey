@@ -50,3 +50,21 @@ def make_multiplier(factor):
 
 times_ten = make_multiplier(4)
 print(times_ten(10))
+
+items = (n for n in [10, 20])
+
+print(next(items))
+print(next(items))
+print(list(items))
+
+
+def batches(items, batch_size):
+    for start in range(0, len(items), batch_size):
+        yield items[start:start + batch_size]
+
+
+data = [10, 20, 30, 40, 50]
+for epoch in range(1, 3):
+    print(f"Epoch {epoch}")
+    for batch in batches(data, batch_size=2):
+        print(batch)
