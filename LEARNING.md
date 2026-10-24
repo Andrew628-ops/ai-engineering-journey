@@ -74,6 +74,10 @@ Start with Phase 0, Lesson 01: Dev Environment, as explicitly requested by the l
 
 | 2026-10-24 | 00-setup-and-tooling/07-docker-for-ai | 3/3 (retry) | Correctly recalled persistent mounts, NVIDIA Container Toolkit exposing host GPUs, and Compose service-name networking. Original attempt retained; quiz review cleared. Practical image-build and container-run exercises remain pending authorized Docker engine access. |
 
+| 2026-10-24 | 00-setup-and-tooling/08-editor-setup | 2/3 | Learner reported VS Code Python, Pylance, Black, and Ruff installed; selected repository .venv interpreter, enabled basic type checking, observed and fixed string-to-int warning, configured Black as formatter and verified format-on-save, and observed Ruff F401 unused-import warning. Prefers Google Colab for notebooks; VS Code Jupyter extension deferred. Understood Remote SSH execution location; no remote connection tested. Review notebook.output.scrolling: contains long output in a scrollable area rather than enabling scrolling animations. |
+
+| 2026-10-24 | 00-setup-and-tooling/08-editor-setup | 3/3 (retry) | Correctly recalled Remote SSH, notebook output scrolling, and basic type checking. Original attempt retained; lesson review item cleared. Colab remains the chosen notebook interface; remote connection not tested. |
+
 ## Review queue
 - 00-setup-and-tooling/07-docker-for-ai — Practical follow-up: image builds and container runs remain untested pending authorized Docker engine access. Latest quiz 3/3; conceptual walkthrough and quiz retake completed.
 - 00-setup-and-tooling/03-gpu-setup-and-cloud — Latest quiz 2/3 (67%), improved from 1/3: NVIDIA status check now recalled correctly; continue reviewing FP16 weights-only arithmetic (24 billion bytes / 2 bytes per parameter = 12 billion parameters). Training requires extra memory. Notes: phases/00-setup-and-tooling/03-gpu-setup-cloud/NOTES.md.
