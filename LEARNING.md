@@ -84,6 +84,10 @@ Start with Phase 0, Lesson 01: Dev Environment, as explicitly requested by the l
 
 | 2026-10-24 | 00-setup-and-tooling/10-terminal-and-shell | 3/3 (retry) | Correctly recalled tmux detach/reattach, combined stdout/stderr redirection, and SSH local port forwarding with -L. Original attempt retained; quiz review cleared. Remote connection and tmux practice remain untested; tmux is not installed. |
 
+| 2026-10-24 | 00-setup-and-tooling/11-linux-for-ai | 1/3 | Learner-reported local practice: created three empty files, inspected owner/group/others permissions, changed notes.txt to 644, saved hello.sh, added owner execute permission and ran it, inspected df (191G available) and du (8K lesson folder), and listed own processes by memory. Copy/rename explained but execution unconfirmed. Corrected others' write permissions, empty script and filename typo, and df versus du. Quiz: chmod correct; review du/sort/head directory-size pipeline and GNU versus macOS BSD sed -i syntax. apt, tmux, remote transfers, and service management not executed; no sudo access. |
+
+| 2026-10-24 | 00-setup-and-tooling/11-linux-for-ai | 3/3 (retry) | Correctly recalled execute permission with chmod, directory disk usage with du/sort/head, and GNU versus macOS BSD sed -i syntax. Original attempt retained; Linux quiz review item cleared. Previously untested practical exercises remain unverified. |
+
 ## Review queue
 - 00-setup-and-tooling/07-docker-for-ai — Practical follow-up: image builds and container runs remain untested pending authorized Docker engine access. Latest quiz 3/3; conceptual walkthrough and quiz retake completed.
 - 00-setup-and-tooling/03-gpu-setup-and-cloud — Latest quiz 2/3 (67%), improved from 1/3: NVIDIA status check now recalled correctly; continue reviewing FP16 weights-only arithmetic (24 billion bytes / 2 bytes per parameter = 12 billion parameters). Training requires extra memory. Notes: phases/00-setup-and-tooling/03-gpu-setup-cloud/NOTES.md.
