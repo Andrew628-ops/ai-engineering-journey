@@ -58,3 +58,57 @@ def normalize(v):
     for coordinate in v:
         result.append(coordinate / length)
     return result
+
+matrix = [
+    [2, 0],
+    [0, 3],
+]
+v = [3, 4]
+
+result = []
+for row in matrix:
+    result.append(dot(row, v))
+
+def matrix_vector(matrix, v):
+    result = []
+    for row in matrix:
+        result.append(dot(row, v))
+    return result
+
+
+def project_vertical(v):
+    return [0, v[1]]
+
+print(project_vertical([2, 5]))
+
+def project_horizontal(v):
+    return [v[0], 0]
+
+print(project_horizontal([3, 7]))
+
+v = [3, 7]
+projection = project_horizontal(v)
+
+residual = [
+    v[0] - projection[0],
+    v[1] - projection[1]
+]
+print(residual)
+
+print(dot(projection, residual))
+
+def subtract(a, b):
+    result = []
+    for x, y in zip(a, b):
+        result.append(x - y)
+    return result
+
+print(subtract([5, 8], [2, 3]))
+
+v = [4, 6]
+projection = project_horizontal(v)
+
+residual = subtract(v[0] - projection[0], v[1] - projection[1])
+
+print(projection)
+print(residual)
