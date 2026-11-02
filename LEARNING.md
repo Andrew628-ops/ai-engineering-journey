@@ -13,6 +13,8 @@ Don't immediately give me answers when I make mistakes. Guide me with hints, tes
 
 I also want to document my progress and projects on GitHub.
 
+Include coding exercises throughout the lessons and let me write the code myself (reaffirmed during Linear Algebra Intuition).
+
 ## Placement
 - Date: 2026-10-22
 - Score: 1/10 — Math & Statistics: 1/2; Classical ML: 0/2; Deep Learning: 0/2; NLP & Transformers: 0/2; Applied AI: 0/2
@@ -49,7 +51,7 @@ Source: [ROADMAP.md](https://raw.githubusercontent.com/rohitg00/ai-engineering-f
 
 At 28 hours/week, the listed estimates total about 42 weeks. Exercises, revision, Python practice, and GitHub documentation can extend this; this is not a deadline or a promise of professional readiness.
 
-Start with Phase 0, Lesson 01: Dev Environment, as explicitly requested by the learner. Complete Setup & Tooling before Math Foundations. Keep learner-written exercises, short reflections, project READMEs, and reproducible results ready for GitHub as learning progresses.
+Phase 0 lessons are logged. Current lesson: Phase 1, Lesson 01: Linear Algebra Intuition, **in progress**. Resume this lesson before selecting the next unlogged lesson; an in-progress row is not completion. Local folder: `phases/01-ml-fundamentals/1-linear-algebra-intuition/` (the local folder name differs from the canonical Math Foundations path). Notes: [notes.md](phases/01-ml-fundamentals/1-linear-algebra-intuition/notes.md). Keep learner-written exercises, short reflections, project READMEs, and reproducible results ready for GitHub as learning progresses.
 
 ## Progress log
 | Date | Lesson | Quiz | Note |
@@ -96,7 +98,10 @@ Start with Phase 0, Lesson 01: Dev Environment, as explicitly requested by the l
 
 | 2026-10-24 | 00-setup-and-tooling/13-python-for-ai-engineering | 2/2 (retry) | Correctly recalled shared mutable defaults and training-only standardization statistics. Original attempt retained; quiz review item cleared. Adapted lesson's unperformed exercises remain unverified; revisit generator exhaustion, references, and unpacking in future practical recall. |
 
+| 2026-11-02 | 01-math-foundations/01-linear-algebra-intuition | Not taken — in progress | Sessions since 2026-10-30 covered vector coordinates, addition/scaling, dot product and loop accumulation, magnitude, cosine similarity, normalization with zero-vector handling, matrix-vector products and dimensions, rotation, simple independence/basis/rank examples, axis projections, residuals, and subtraction. Learner supplied code and answers; execution was not independently verified. Needed guided practice with scalar versus list, loop state, square roots, indexing, matrix dimensions, axis choice, and function calls. Warm-up: mutable default recalled; training-only standardization corrected. Resume by filling residual = subtract(_____, _____) for v=[4,6] and its horizontal projection, then reporting both outputs. General projection, Gram-Schmidt, library equivalents, artifact, and final quiz remain pending. Notes: phases/01-ml-fundamentals/1-linear-algebra-intuition/notes.md. |
+
 ## Review queue
+- 01-math-foundations/01-linear-algebra-intuition — In-progress practice, not a failed quiz: revisit scalar/list distinction, loop accumulation, square root versus squared length, indexing, matrix input/output dimensions, axis projections, and calling reusable functions. Continue the current lesson before advancing; final quiz not taken.
 - 00-setup-and-tooling/07-docker-for-ai — Practical follow-up: image builds and container runs remain untested pending authorized Docker engine access. Latest quiz 3/3; conceptual walkthrough and quiz retake completed.
 - 00-setup-and-tooling/03-gpu-setup-and-cloud — Latest quiz 2/3 (67%), improved from 1/3: NVIDIA status check now recalled correctly; continue reviewing FP16 weights-only arithmetic (24 billion bytes / 2 bytes per parameter = 12 billion parameters). Training requires extra memory. Notes: phases/00-setup-and-tooling/03-gpu-setup-cloud/NOTES.md.
 - 00-setup-and-tooling/01-dev-environment — Quiz 2/3 (67%): review environment setup order, especially why the operating system and shell must be ready before package managers. Follow up on PyTorch and official beginner preflight before model-training exercises; verify_setup.py currently checks only Python, NumPy, and virtual-environment activation.
