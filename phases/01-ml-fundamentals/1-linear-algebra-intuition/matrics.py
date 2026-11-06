@@ -21,3 +21,24 @@ matrix = [
 
 vector = [1, 4]
 print(matrix_vector_multiply(matrix, vector))
+
+
+def get_column(B, column_index):
+    column = []
+    for b in B:
+        result = b[column_index]
+        column.append(result)
+    return column
+
+
+def matrix_multiply(A, B):
+    results = []
+    if len(A[0]) != len(B):
+        raise ValueError("have incompatible")
+    for row in A:
+        result_row = []
+        for col in range(len(B[0])):
+            res = get_column(B, col)
+            result_row.append(dot_product(row, res))
+        results.append(result_row)
+    return results
