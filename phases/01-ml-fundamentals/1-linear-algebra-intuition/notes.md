@@ -246,3 +246,7 @@ print(residual)
 Next exercise: fill in the arguments in original-minus-projection order and report both outputs. The coordinate-by-coordinate version was already supplied correctly; the function-call version is still pending.
 
 Still to cover: projection onto a general nonzero vector, Gram-Schmidt, further from-scratch practice, library equivalents, lesson artifact, and final quiz. The lesson is not complete.
+
+## Resume checkpoint (2026-11-21)
+
+Running `python3 -B vector.py` reached the final `subtract` call and raised `TypeError: 'int' object is not iterable` inside `zip(a, b)`. The two expressions passed to `subtract` each evaluate to a single number. Trace the call by identifying the two lists that represent the original vector and its projection. Use the existing helper, predict the two printed lists, then run the script to check them.
