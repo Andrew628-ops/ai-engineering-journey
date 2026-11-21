@@ -53,6 +53,8 @@ At 28 hours/week, the listed estimates total about 42 weeks. Exercises, revision
 
 Phase 0 lessons are logged. Current lesson: Phase 1, Lesson 01: Linear Algebra Intuition, **in progress**. Resume this lesson before selecting the next unlogged lesson; an in-progress row is not completion. Local folder: `phases/01-ml-fundamentals/1-linear-algebra-intuition/` (the local folder name differs from the canonical Math Foundations path). Notes: [notes.md](phases/01-ml-fundamentals/1-linear-algebra-intuition/notes.md). Keep learner-written exercises, short reflections, project READMEs, and reproducible results ready for GitHub as learning progresses.
 
+**Resume checkpoint (2026-11-21).** Running `vector.py` reproduced a `TypeError` at the final `subtract` call. The next exercise is to fix the function call and check the printed projection and residual. Learner work and the final quiz are pending.
+
 ## Progress log
 | Date | Lesson | Quiz | Note |
 |------|--------|------|------|
