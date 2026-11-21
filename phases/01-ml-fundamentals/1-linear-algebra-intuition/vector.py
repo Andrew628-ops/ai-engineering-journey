@@ -108,7 +108,7 @@ print(subtract([5, 8], [2, 3]))
 v = [4, 6]
 projection = project_horizontal(v)
 
-residual = subtract(v[0] - projection[0], v[1] - projection[1])
+residual = subtract(v, projection)
 
 print(projection)
 print(residual)
